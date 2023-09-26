@@ -289,8 +289,91 @@ html, body{
   left: -30px;
   transform: rotate(-20deg);
 }
-
-
+#page3{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 60px;
+  height: 100vh;
+  width: 100vw;
+  background-color: #55607c;
+}
+#left1{
+  height: 50%;
+  width: 35%;
+  margin-left: 10%;
+}
+#right1{
+  height: 10vw;
+  width: 40vw;
+}
+#right1 h1{
+  text-align: center;
+  font-size: 50px;
+  color: #fff;
+}
+.social{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 150px;
+  height: 30%;
+  width: 100%;
+}
+.social i{
+  font-size: 30px;
+  cursor: pointer;
+}
+#text5{
+  position: relative;
+  height: 30%;
+  width: 100%;
+}
+#text5 h1{
+  padding-top: 20px;
+  font-size: 60px;
+  color: #fff;
+}
+#text5 h5{
+  color: #ac8bee;
+  transform: rotate(-20deg);
+  position: absolute;
+  top: 0%;
+  padding-top: 15px;
+  left: -5%;
+}
+#info{
+  margin-top: 50px;
+  height: 50%;
+  width: 100%;
+}
+.infos{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-left: 20px;
+  height: 50%;
+  width: 100%;
+  border-top: 3px solid #000;
+}
+.i1{
+  background-color: #fff;
+}
+.i1 i{
+  color: #000;
+}
+.footer {
+  width: 100%;
+  margin: auto;
+  padding: 1rem;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background-color: #445069;
+}
 
 
 
