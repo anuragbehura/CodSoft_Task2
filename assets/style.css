@@ -363,7 +363,7 @@ html, body{
 .i1 i{
   color: #000;
 }
-.footer {
+#main .footer {
   width: 100%;
   margin: auto;
   padding: 1rem;
